@@ -1,0 +1,117 @@
+body{
+    height:794px;
+    background-color: rgb(33, 36, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    
+}
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/font/Norse-Bold.otf);
+  }
+
+
+.container{
+    display: flex;
+    background-color: rgb(29, 26, 26);
+    width: 70%;
+    height:100vh;
+    
+    
+}
+a{
+ text-decoration: none;
+ color: rgb(248, 16, 105);
+ padding-left: 5px;
+}
+
+
+.imgCont{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-image:url(img/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
+    background-size:cover;
+    background-position:top;
+    width: 30%;
+    font-size:small;
+    color: antiquewhite;
+    padding-bottom: 5px;  
+}
+.odin{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 300px;
+    font-family:Norse-bold;
+    font-size: 60px;
+    height: 130px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.400);
+    
+}
+.textSection{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 100px 0px 20px 20px;
+    
+}
+
+.formSection{
+    width: 70%;
+    background-color: rgb(212, 230, 230);
+
+ }
+.form-field{
+display:flex;
+flex-direction: column;
+}
+form{
+    background-color: rgb(219, 207, 207);
+    padding: 10px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.button {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 180px;
+    border-radius: 5px;
+    background-color: #3c8baf;
+    height: 40px;
+    width: 200px;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(243, 130, 130);
+}
+input{
+    border: none;
+    border: 1px solid rgb(226, 182, 182);
+}
+
+input[type]:focus {
+    outline: none;
+    border:2px solid #3c8baf;
+  }
+
+.logIn{
+    position: absolute;
+    bottom:150px;
+    padding-left: 30px;
+    
+}
+a:hover{
+    color:#3c8baf;
+}
+
