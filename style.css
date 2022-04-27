@@ -38,7 +38,7 @@ a{
     background-image:url(img/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
     background-size:cover;
     background-position:top;
-    width: 30%;
+    width: 40%;
     font-size:small;
     color: antiquewhite;
     padding-bottom: 5px;  
@@ -64,7 +64,7 @@ a{
 }
 
 .formSection{
-    width: 70%;
+    width: 60%;
     background-color: rgb(212, 230, 230);
 
  }
