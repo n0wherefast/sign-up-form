@@ -11,7 +11,7 @@ body{
 }
 @font-face {
     font-family: Norse-Bold;
-    src: url(/font/Norse-Bold.otf);
+    src: url(font/Norse-Bold.otf);
   }
 
 
@@ -33,7 +33,7 @@ a{
 .imgCont{
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content:space-between;
     align-items: center;
     background-image:url(img/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
     background-size:cover;
@@ -43,18 +43,18 @@ a{
     color: antiquewhite;
     padding-bottom: 5px;  
 }
-/*.odin{
+.odin{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     margin-top: 300px;
     font-family:Norse-bold;
     font-size: 60px;
-    height: 130px;
+    height: 150px;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.400);
     
-}*/
+}
 .textSection{
     display: flex;
     flex-direction: column;
