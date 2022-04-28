@@ -18,7 +18,7 @@ body{
 .container{
     display: flex;
     background-color: rgb(29, 26, 26);
-    width: 70%;
+    width: 70vw;
     height:100vh;
     
     
