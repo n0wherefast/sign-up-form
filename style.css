@@ -86,8 +86,8 @@ form{
 .button {
     color: white;
     font-size: 18px;
-    position: absolute;
-    bottom: 180px;
+    position: relative;
+    top:10vh;
     border-radius: 5px;
     background-color: #3c8baf;
     height: 40px;
@@ -108,8 +108,8 @@ input[type]:focus {
   }
 
 .logIn{
-    position: absolute;
-    bottom:150px;
+    position:relative;
+    top:10vh;
     padding-left: 30px;
     
 }
